@@ -1,0 +1,20 @@
+Location UNSW Apple Automatic
+Location UNSW Orange Manual
+Location UNSW Strawberry Manual
+Location UNSW Pear Manual
+Location UTS Lychee Manual
+Request 1 14 Jun 09 14 Jun 19 2 Automatic 3 Manual
+	# Request 1 is for 2 Automatic and 3 Manual
+	# Output Booking rejected as there is too many Automatic to be requested
+Request 2 14 Jun 09 14 Jun 19 2 Manual
+	# Request 2 is for 2 Manual
+	# Output Booking 2 UNSW Orange, Strawberry
+Request 3 14 Jun 09 14 Jun 19 2 Manual
+	# Request 3 is for 2 Manual
+	# Output Booking 3 UNSW Pear; UTS Lychee
+Cancel 2
+	# Cancel Booking 2
+	# Deassign Orange and Strawberry of UNSW
+Request 4 18 Jun 06 14 Jun 09 1 Automatic 4 Manual
+	# Request 4 is for 1 Automatic and 4 Manual
+	# Output is Booking 4 UNSW Apple, Orange, Strawberry, Pear; UTS Lychee

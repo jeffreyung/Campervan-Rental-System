@@ -1,0 +1,5 @@
+Booking rejected
+Booking 2 UNSW Orange, Strawberry
+Booking 3 UNSW Pear; UTS Lychee
+Cancel 2
+Booking 4 UNSW Apple, Orange, Strawberry, Pear; UTS Lychee

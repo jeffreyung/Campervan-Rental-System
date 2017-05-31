@@ -1,0 +1,8 @@
+Booking 1 UNSW Apple, Orange
+Booking 2 UNSW Strawberry, Pear; UTS Lychee
+UNSW Apple 14:00 Jun 09 14:00 Jun 19
+UNSW Orange 14:00 Jun 09 14:00 Jun 19
+UNSW Pear 02:00 Jun 17 14:00 Dec 09
+UNSW Strawberry 02:00 Jun 17 14:00 Dec 09
+UTS Lychee 02:00 Jun 17 14:00 Dec 09
+Cancel 2

@@ -1,0 +1,20 @@
+Location UNSW Apple Automatic
+Location UNSW Orange Automatic
+Location UNSW Strawberry Manual
+Location UNSW Pear Manual
+Location UTS Lychee Automatic
+
+Request 1 14 Jun 9 14 Jun 19 1 Automatic 1 Automatic
+	# Request 1 is for 2 Automatic
+	# Output Booking 1 UNSW Apple, Orange
+Request 2 2 Jun 17 14 Dec 9 2 Manual 1 Automatic
+	# Request 2 is for 2 Manual and 1 Automatic
+	# Output Booking 2 UNSW Strawberry, Pear; UTS Lychee
+Print UNSW
+	# Prints all the bookings in UNSW
+Print UTS
+	# Prints all the bookings in UTS
+Cancel 2
+	# Cancel Booking 2
+Print UTS
+	# Prints all the bookings in UTS
